@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T08:42:51.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0KhGASjCFdwgfXMwWeQ6" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T08:44:59.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="qgO-SwUycSPx1ByvmPBL" version="20.8.20" type="github">
   <diagram name="Page-1" id="jb7mRahCzlHCsOeQkt8h">
-    <mxGraphModel dx="844" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_6TaDpirpwY7llcwYww7-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="100" width="500" height="910" as="geometry" />
+          <mxGeometry x="175" y="100" width="500" height="650" as="geometry" />
         </mxCell>
         <mxCell id="_6TaDpirpwY7llcwYww7-2" value="Player" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="380" width="30" height="60" as="geometry" />
@@ -84,6 +84,33 @@
             <mxPoint x="505" y="265" as="sourcePoint" />
             <mxPoint x="750" y="250" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_6TaDpirpwY7llcwYww7-22" value="Assign Team" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="540" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_6TaDpirpwY7llcwYww7-23" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_6TaDpirpwY7llcwYww7-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="505" as="sourcePoint" />
+            <mxPoint x="740" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_6TaDpirpwY7llcwYww7-24" value="Player Transfers" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="620" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_6TaDpirpwY7llcwYww7-25" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_6TaDpirpwY7llcwYww7-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="450" as="sourcePoint" />
+            <mxPoint x="750" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_6TaDpirpwY7llcwYww7-26" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_6TaDpirpwY7llcwYww7-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="585" as="sourcePoint" />
+            <mxPoint x="740" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_6TaDpirpwY7llcwYww7-27" value="FootyField" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="110" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
